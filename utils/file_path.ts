@@ -1,5 +1,5 @@
-import { encodeHex } from 'std/encoding/hex.ts';
-import { join } from 'std/path/join.ts';
+import { encodeHex } from '@std/encoding/hex';
+import { join } from '@std/path/join';
 
 /**
  * Replaces all illegal characters inside the given name to form a valid filename (UNIX and Windows).

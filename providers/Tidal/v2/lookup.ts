@@ -1,4 +1,4 @@
-import { join } from 'std/url/join.ts';
+import { join } from '@std/url/join';
 import { ReleaseApiLookup } from '@/providers/base.ts';
 import TidalProvider from '@/providers/Tidal/mod.ts';
 import { formatCopyrightSymbols } from '@/utils/copyright.ts';

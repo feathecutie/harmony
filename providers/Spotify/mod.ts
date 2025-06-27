@@ -8,7 +8,7 @@ import { ResponseError } from '@/utils/errors.ts';
 import { selectLargestImage } from '@/utils/image.ts';
 import { splitLabels } from '@/utils/label.ts';
 import { ResponseError as SnapResponseError } from 'snap-storage';
-import { encodeBase64 } from 'std/encoding/base64.ts';
+import { encodeBase64 } from '@std/encoding/base64';
 import { availableRegions } from './regions.ts';
 
 import type {

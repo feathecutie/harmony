@@ -1,10 +1,10 @@
 import { getMergedReleaseByGTIN, getReleaseByUrl } from '@/lookup.ts';
 import { createReleaseSeed } from '@/musicbrainz/seeding.ts';
-import { parse } from 'std/flags/mod.ts';
+import { parseArgs } from '@std/cli/parse-args';
 
 import type { GTIN, HarmonyRelease } from './harmonizer/types.ts';
 
-const args = parse(Deno.args, {
+const args = parseArgs(Deno.args, {
 	boolean: ['isrc', 'multi-disc', 'seed'],
 	string: '_', // do not parse numeric positional arguments
 });

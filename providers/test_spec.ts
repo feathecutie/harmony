@@ -3,7 +3,7 @@ import type { EntityId, HarmonyRelease, ReleaseOptions, ReleaseSpecifier } from 
 import { downloadMode } from '@/utils/fetch_stub.ts';
 import { isDefined } from '@/utils/predicate.ts';
 
-import { assertEquals } from 'std/assert/assert_equals.ts';
+import { assertEquals } from '@std/assert/equals';
 import { filterValues } from '@std/collections/filter-values';
 import { describe, it } from '@std/testing/bdd';
 

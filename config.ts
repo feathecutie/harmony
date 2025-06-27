@@ -1,5 +1,5 @@
 import { getBooleanFromEnv, getFromEnv, getUrlFromEnv } from '@/utils/config.ts';
-import { join } from 'std/url/join.ts';
+import { join } from '@std/url/join';
 
 /** Source code URL. */
 export const codeUrl = getUrlFromEnv('HARMONY_CODE_URL', 'https://github.com/kellnerd/harmony');

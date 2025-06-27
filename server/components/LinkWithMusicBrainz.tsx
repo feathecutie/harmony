@@ -7,7 +7,7 @@ import { convertLinkType } from '@/musicbrainz/seeding.ts';
 import { providers } from '@/providers/mod.ts';
 import type { EntityWithMbid } from '@kellnerd/musicbrainz/api-types';
 import type { EntityType } from '@kellnerd/musicbrainz/data/entity';
-import { join } from 'std/url/join.ts';
+import { join } from '@std/url/join';
 import { flatten } from 'utils/object/flatten.js';
 
 // TODO: incomplete type, expose a suitable type from @kellnerd/musicbrainz?

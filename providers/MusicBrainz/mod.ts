@@ -13,7 +13,7 @@ import { parseHyphenatedDate } from '@/utils/date.ts';
 import { ResponseError } from '@/utils/errors.ts';
 import { isDefined } from '@/utils/predicate.ts';
 import { ArtistCredit, Release } from '@kellnerd/musicbrainz/api-types';
-import { join } from 'std/url/join.ts';
+import { join } from '@std/url/join';
 
 export default class MusicBrainzProvider extends MetadataApiProvider {
 	constructor(options: ProviderOptions = {}) {

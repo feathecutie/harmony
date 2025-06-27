@@ -1,4 +1,4 @@
-import { assert } from 'std/assert/assert.ts';
+import { assert } from '@std/assert/assert';
 
 export function formatDuration(ms: number | undefined, {
 	showMs = false,

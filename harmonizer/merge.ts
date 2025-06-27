@@ -4,7 +4,7 @@ import { isDefined } from '@/utils/predicate.ts';
 import { cloneInto, copyTo, filterErrorEntries, isFilled, uniqueMappedValues } from '@/utils/record.ts';
 import { matchBySimilarName, similarNames } from '@/utils/similarity.ts';
 import { trackCountSummary } from '@/utils/tracklist.ts';
-import { assert } from 'std/assert/assert.ts';
+import { assert } from '@std/assert/assert';
 
 import type {
 	ArtistCreditName,

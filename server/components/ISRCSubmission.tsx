@@ -1,6 +1,6 @@
 import { musicbrainzTargetServer } from '@/config.ts';
 import type { HarmonyRelease } from '@/harmonizer/types.ts';
-import { join } from 'std/url/join.ts';
+import { join } from '@std/url/join';
 
 export function MagicISRC({ release, targetMbid }: { release: HarmonyRelease; targetMbid?: string }) {
 	const allTracks = release.media.flatMap((medium) => medium.tracklist);

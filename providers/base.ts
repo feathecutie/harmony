@@ -1,7 +1,7 @@
 import { FeatureQuality, type FeatureQualityMap, type ProviderFeature } from './features.ts';
 import { ProviderError, ResponseError } from '@/utils/errors.ts';
 import { pluralWithCount } from '@/utils/plural.ts';
-import { getLogger } from 'std/log/get_logger.ts';
+import { getLogger } from '@std/log/get-logger';
 import { rateLimit } from 'utils/async/rateLimit.js';
 import { simplifyName } from 'utils/string/simplify.js';
 
@@ -23,7 +23,7 @@ import type {
 import type { PartialDate } from '@/utils/date.ts';
 import type { CacheOptions, Snapshot, SnapStorage } from 'snap-storage';
 import type { MaybePromise } from 'utils/types.d.ts';
-import type { Logger } from 'std/log/logger.ts';
+import type { Logger } from '@std/log/logger';
 
 export type ProviderOptions = Partial<{
 	/** Information about the application. */

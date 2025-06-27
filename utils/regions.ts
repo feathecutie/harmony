@@ -1,4 +1,4 @@
-import { assert } from 'std/assert/assert.ts';
+import { assert } from '@std/assert/assert';
 import type { CountryCode } from '@/harmonizer/types.ts';
 import { regionName } from '@/utils/locale.ts';
 

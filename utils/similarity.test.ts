@@ -1,9 +1,9 @@
 import { matchBySimilarName, similarNames } from './similarity.ts';
 
 import { describe, it } from '@std/testing/bdd';
-import { assert } from 'std/assert/assert.ts';
-import { assertEquals } from 'std/assert/assert_equals.ts';
-import { assertFalse } from 'std/assert/assert_false.ts';
+import { assert } from '@std/assert/assert';
+import { assertEquals } from '@std/assert/equals';
+import { assertFalse } from '@std/assert/false';
 
 import type { ParameterSpec } from './test_spec.ts';
 

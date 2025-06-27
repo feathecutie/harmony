@@ -6,8 +6,8 @@ import { LookupError, ProviderError } from '@/utils/errors.ts';
 import { ensureValidGTIN, isEqualGTIN, uniqueGtinSet } from '@/utils/gtin.ts';
 import { isDefined, isNotError } from '@/utils/predicate.ts';
 import { ResponseError } from 'snap-storage';
-import { getLogger } from 'std/log/get_logger.ts';
-import { LogLevels } from 'std/log/levels.ts';
+import { getLogger } from '@std/log/get-logger';
+import { LogLevels } from '@std/log/levels';
 import { zipObject } from 'utils/object/zipObject.js';
 
 import type {
@@ -20,7 +20,7 @@ import type {
 	ProviderReleaseErrorMap,
 	ReleaseOptions,
 } from '@/harmonizer/types.ts';
-import type { Logger } from 'std/log/logger.ts';
+import type { Logger } from '@std/log/logger';
 
 /** Parameters which can be used to lookup a release. */
 export type ReleaseLookupParameters = {

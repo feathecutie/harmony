@@ -8,7 +8,7 @@ import {
 } from './release_types.ts';
 import { HarmonyRelease, HarmonyTrack, ReleaseGroupType } from './types.ts';
 
-import { assertEquals } from 'std/assert/assert_equals.ts';
+import { assertEquals } from '@std/assert/equals';
 import { describe, it } from '@std/testing/bdd';
 
 import type { FunctionSpec } from '../utils/test_spec.ts';

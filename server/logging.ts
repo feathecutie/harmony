@@ -1,8 +1,8 @@
 import { inDevMode } from '@/config.ts';
-import { blue, bold, green, magenta, red, yellow } from 'std/fmt/colors.ts';
-import { ConsoleHandler } from 'std/log/console_handler.ts';
-import type { LevelName } from 'std/log/levels.ts';
-import { setup } from 'std/log/setup.ts';
+import { blue, bold, green, magenta, red, yellow } from '@std/fmt/colors';
+import { ConsoleHandler } from '@std/log/console-handler';
+import type { LevelName } from '@std/log/levels';
+import { setup } from '@std/log/setup';
 
 setup({
 	handlers: {

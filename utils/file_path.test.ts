@@ -1,8 +1,8 @@
 import { urlToFilePath } from './file_path.ts';
 
-import { assert } from 'std/assert/assert.ts';
-import { assertEquals } from 'std/assert/assert_equals.ts';
-import { SEPARATOR } from 'std/path/constants.ts';
+import { assert } from '@std/assert/assert';
+import { assertEquals } from '@std/assert/equals';
+import { SEPARATOR } from '@std/path/constants';
 import { describe, it } from '@std/testing/bdd';
 
 // Helper to construct URLs and make paths independent from the OS which runs the tests

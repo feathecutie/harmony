@@ -1,7 +1,7 @@
 import type { ReleaseOptions } from '@/harmonizer/types.ts';
 import { describeProvider, makeProviderOptions } from '@/providers/test_spec.ts';
 import { stubProviderLookups } from '@/providers/test_stubs.ts';
-import { assert } from 'std/assert/assert.ts';
+import { assert } from '@std/assert/assert';
 import { afterAll, describe } from '@std/testing/bdd';
 import { assertSnapshot } from '@std/testing/snapshot';
 

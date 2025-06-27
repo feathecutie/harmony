@@ -1,4 +1,4 @@
-import { unescape } from 'std/html/entities.ts';
+import { unescape } from '@std/html/entities';
 
 /** Extracts the first group of the given regex from HTML and decodes HTML entities. */
 export function extractTextFromHtml(html: string, expression: RegExp) {

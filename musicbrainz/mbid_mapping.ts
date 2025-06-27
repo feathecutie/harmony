@@ -8,9 +8,9 @@ import { isDefined } from '@/utils/predicate.ts';
 import { type EntityWithMbid, RateLimitError } from '@kellnerd/musicbrainz';
 import type { RelInclude } from '@kellnerd/musicbrainz/api-types';
 import type { RelatableEntityType } from '@kellnerd/musicbrainz/data/entity';
-import { assert } from 'std/assert/assert.ts';
+import { assert } from '@std/assert/assert';
 import { chunk } from '@std/collections/chunk';
-import { getLogger } from 'std/log/get_logger.ts';
+import { getLogger } from '@std/log/get-logger';
 
 /**
  * Resolves the external IDs of each given MusicBrainz entity to its MBID.

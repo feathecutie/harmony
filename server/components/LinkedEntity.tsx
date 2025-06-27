@@ -4,7 +4,7 @@ import { musicbrainzTargetServer } from '@/config.ts';
 import type { ResolvableEntity } from '@/harmonizer/types.ts';
 import { providers } from '@/providers/mod.ts';
 import { type EntityType } from '@kellnerd/musicbrainz';
-import { join } from 'std/url/join.ts';
+import { join } from '@std/url/join';
 
 export function LinkedEntity({ entity, entityType, displayName }: {
 	entity: ResolvableEntity;

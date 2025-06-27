@@ -1,7 +1,7 @@
 import { parseISODuration } from './time.ts';
 
-import { assertEquals } from 'std/assert/assert_equals.ts';
-import { describe, it } from 'std/testing/bdd.ts';
+import { assertEquals } from '@std/assert/equals';
+import { describe, it } from '@std/testing/bdd';
 
 import type { FunctionSpec } from './test_spec.ts';
 

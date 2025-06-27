@@ -3,8 +3,8 @@ import { DurationPrecision, FeatureQuality, FeatureQualityMap } from '@/provider
 import { getFromEnv } from '@/utils/config.ts';
 import { ResponseError } from '@/utils/errors.ts';
 import { ResponseError as SnapResponseError } from 'snap-storage';
-import { encodeBase64 } from 'std/encoding/base64.ts';
-import { join } from 'std/url/join.ts';
+import { encodeBase64 } from '@std/encoding/base64';
+import { join } from '@std/url/join';
 import { availableRegions } from './regions.ts';
 import { TidalV1ReleaseLookup } from './v1/lookup.ts';
 import { TidalV2ReleaseLookup } from './v2/lookup.ts';

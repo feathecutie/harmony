@@ -5,7 +5,7 @@ import { ensureValidGTIN } from '@/utils/gtin.ts';
 import { isNotEmpty } from '@/utils/predicate.ts';
 import { assertCountryCode } from '@/utils/regions.ts';
 import { assertTimestamp } from '@/utils/time.ts';
-import { getCookies } from 'std/http/cookie.ts';
+import { getCookies } from '@std/http/cookie';
 
 /** Default regions which will be used for lookups if no regions could be obtained otherwise. */
 export const defaultRegions = ['GB', 'US', 'DE', 'JP'];

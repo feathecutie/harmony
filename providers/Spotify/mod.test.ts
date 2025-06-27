@@ -1,11 +1,11 @@
 // Automatically load .env environment variable file (before anything else).
-import 'std/dotenv/load.ts';
+import '@std/dotenv/load';
 
 import type { ReleaseOptions } from '@/harmonizer/types.ts';
 import { describeProvider, makeProviderOptions } from '@/providers/test_spec.ts';
 import { stubProviderLookups, stubTokenRetrieval } from '@/providers/test_stubs.ts';
 import { downloadMode } from '@/utils/fetch_stub.ts';
-import { assert } from 'std/assert/assert.ts';
+import { assert } from '@std/assert/assert';
 import { afterAll, describe } from '@std/testing/bdd';
 import type { Stub } from '@std/testing/mock';
 import { assertSnapshot } from '@std/testing/snapshot';

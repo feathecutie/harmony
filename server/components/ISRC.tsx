@@ -1,5 +1,5 @@
 import { musicbrainzTargetServer } from '@/config.ts';
-import { join } from 'std/url/join.ts';
+import { join } from '@std/url/join';
 import { ProviderIcon } from './ProviderIcon.tsx';
 import { SpriteIcon } from './SpriteIcon.tsx';
 

@@ -1,4 +1,4 @@
-import { join } from 'std/url/join.ts';
+import { join } from '@std/url/join';
 import { type CacheEntry, ReleaseApiLookup } from '@/providers/base.ts';
 import { ProviderError } from '@/utils/errors.ts';
 import { capitalizeReleaseType } from '@/harmonizer/release_types.ts';

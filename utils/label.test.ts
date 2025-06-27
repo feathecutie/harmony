@@ -1,6 +1,6 @@
 import { splitLabels } from './label.ts';
 
-import { assertEquals } from 'std/assert/assert_equals.ts';
+import { assertEquals } from '@std/assert/equals';
 import { describe, it } from '@std/testing/bdd';
 
 import type { FunctionSpec } from './test_spec.ts';

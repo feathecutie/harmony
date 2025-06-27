@@ -1,10 +1,10 @@
 // Automatically load .env environment variable file and configure logger (before anything else).
-import 'std/dotenv/load.ts';
+import '@std/dotenv/load';
 import './logging.ts';
 
 import { shortRevision } from '@/config.ts';
 import { start } from 'fresh/server.ts';
-import { getLogger } from 'std/log/get_logger.ts';
+import { getLogger } from '@std/log/get-logger';
 import manifest from './fresh.gen.ts';
 
 const log = getLogger('harmony.server');

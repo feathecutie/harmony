@@ -27,8 +27,8 @@ import { isDefined } from '@/utils/predicate.ts';
 import { filterErrorEntries } from '@/utils/record.ts';
 import { Head } from 'fresh/runtime.ts';
 import { defineRoute } from 'fresh/server.ts';
-import { getLogger } from 'std/log/get_logger.ts';
-import { join } from 'std/url/join.ts';
+import { getLogger } from '@std/log/get-logger';
+import { join } from '@std/url/join';
 
 export default defineRoute(async (req, ctx) => {
 	const errors: Error[] = [];

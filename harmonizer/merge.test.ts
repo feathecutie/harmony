@@ -2,7 +2,7 @@ import { mergeResolvableEntityArray, mergeSortedResolvableEntityArray } from './
 import type { ResolvableEntity } from '@/harmonizer/types.ts';
 
 import { describe, it } from '@std/testing/bdd';
-import { assertEquals } from 'std/assert/assert_equals.ts';
+import { assertEquals } from '@std/assert/equals';
 
 function fakeEntity(name: string, ...providers: string[]): ResolvableEntity {
 	return {
